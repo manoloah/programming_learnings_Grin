@@ -1,0 +1,6 @@
+docker run -d -p 3000:3000 --name metabase2 -v /Users/manuelangel/metabase.db:/metabase.db -e "MB_DB_FILE=/metabase.db" metabase/metabase
+
+Running new docker image with backup in pwd: /Users/manuelangel/metabase.db
+
+
+

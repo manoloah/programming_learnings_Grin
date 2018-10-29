@@ -1,0 +1,16 @@
+To get from a server into local computer: 
+
+first connect to server via ssh: 
+ssh metabase #metabase= servername 
+
+
+get the pwd from the file: 
+pwd #/home/ubuntu/metabase.db
+
+
+Then quit the connection to server: 
+~.
+
+then copy from ssh to local using: 
+scp -r metabase:/home/ubuntu/metabase.db /Users/manuelangel
+
